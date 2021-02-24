@@ -1,3 +1,6 @@
+printf "\n"
+echo -e "\e[1;32mINICIANDO INSTALAÇÃO\e[0m" 
+
 echo "Iniciando Script"
 
 # Check for Homebrew, install if we don't have it
