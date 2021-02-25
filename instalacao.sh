@@ -72,7 +72,7 @@ case "$response" in [yY][eE][sS]|[yY])
 esac
 
 echo -e "\033[1;31m"
-read -p "Deseja instalar Ferramentas de Adicionais? [Y/n] " response
+read -p "Deseja instalar Ferramentas de Programação Adicionais? [Y/n] " response
 echo -e "\033[0m"
 case "$response" in [yY][eE][sS]|[yY]) 
         brew install --cask hyper
