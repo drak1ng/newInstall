@@ -56,6 +56,7 @@ echo " - IINA"
 echo " - Spotify"
 echo " - Whatsapp"
 echo " - Plex Media Server"
+echo " - Jellyfin"
 printf "\n"
 
 read -p "Deseja instalar Utilitários? [Y/n] " response
@@ -68,6 +69,7 @@ case "$response" in [yY][eE][sS]|[yY])
         brew install --cask iina
         brew install --cask whatsapp
         brew install --cask plex-media-server
+        brew install --cask jellyfin
     ;;
 esac
 
